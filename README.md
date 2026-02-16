@@ -67,4 +67,4 @@ Extracción de propiedades de un objeto persona usando destructuring.
 
 
 
-##Autor: Felipe Echeverri David
+## Autor: Felipe Echeverri David.

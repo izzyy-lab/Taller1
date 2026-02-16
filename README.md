@@ -6,20 +6,36 @@ Proyecto educativo basado en arquitectura feature-based que abarca conceptos fun
 ## Estructura del Proyecto
 ```
 Taller1/
-├── features/
-│   ├── userManagement/
+public/
+│
+├── images/                 # Recursos estáticos (iconos, fotos de usuarios, etc.)
+│
+src/
+│
+├── features/               # Módulos independientes por tema
+│   │
+│   ├── destructuring/      # Ejercicios de desestructuración de objetos
 │   │   ├── index.html
-│   │   ├── style.css
 │   │   └── script.js
-│   ├── callbacks/
-│   │   └── callbacks.js
-│   ├── promises/
-│   │   └── promises.js
-│   ├── asyncAwait/
-│   │   └── asyncAwait.js
-│   └── destructuring/
-│       └── destructuring.js
-└── README.md
+│   │
+│   ├── callbacks/          # Ejercicios de funciones callback
+│   │   ├── index.html
+│   │   └── script.js
+│   │
+│   ├── promises/           # Manejo de promesas (.then / .catch)
+│   │   ├── index.html
+│   │   └── script.js
+│   │
+│   └── crud-async/         # Proyecto final: CRUD con Async/Await
+│       └── script.js
+│
+├── shared/
+│   └── css/                # Hojas de estilo globales y utilidades
+│       └── styles.css
+│
+index.html              # Punto de entrada principal (Menú de navegación)
+README.md
+.gitignore
 ```
 
 ## Actividades
@@ -48,3 +64,7 @@ Extracción de propiedades de un objeto persona usando destructuring.
 ## Requisitos
 - Navegador moderno con soporte ES6+
 - Conocimientos básicos de JavaScript, HTML y CSS
+
+
+
+##Autor: Felipe Echeverri David
